@@ -1,16 +1,16 @@
 # Responsive_Seat_Selector
 
-# Project scenario
+**Project scenario**
 
             ■ Sugarland Theaters is trying to increase the revenue from the cinemas and theaters they manage by enabling guests to book their seats on the go, guaranteeing a smooth experience. The company wants you to develop an initial prototype showing what the seat booking web interface could look like. The prototype should feature seat mapping and availability and let guests adapt the seat map to their screen size.
 
-# Tools used
+**Tools used**
 
     ■ HTML
     ■ CSS
     ■ Javascript
 
-# Summary
+**Summary**
 
 Your responsive seat selector UI for a movie booking system is a web-based interface that allows users to visually select and reserve seats for a movie screening. This project utilizes HTML, CSS, and JavaScript to create an interactive and user-friendly experience. Here is a brief description of the key features and components of your project:
 
