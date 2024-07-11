@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Seat Selector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="heading">Movie Seat Selector</h1>
+    </header>
+    <div class="carousel-container">
+        <div class="carousel">
+            <img src="movie1.jpg" alt="Movie 1">
+            <img src="movie2.jpg" alt="Movie 2">
+            <img src="movie3.jpg" alt="Movie 3">
+            <img src="movie4.jpg" alt="Movie 4">
+        </div>
+    </div>
+    
+    <div class="movie-container">
+        <label> Select a Movie </label><br>
+        <select name="Movie" id="movie">
+            <option value="250">Kalki Rs.250</option>
+            <option value="200">Garudan Rs.200</option>
+            <option value="100">Maharaja Rs.100</option>
+            <option value="600">Indian II Rs.600</option>
+        </select>
+    </div>
+
+   
+    <ul class="showcase">
+        <li>
+            <div class="seat1"></div>
+            <small>Available Seats</small>
+        </li>
+        <li>
+            <div class="seat2 selected"></div>
+            <small>Selected Seats</small>
+        </li>
+        <li>
+            <div class="seat3 sold"></div>
+            <small>Sold Seats</small>
+        </li>
+    </ul>
+    <div class="container">
+        <div class="screen"></div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat sold"></div>
+            <div class="seat"></div>
+            <div class="seat sold"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat sold"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat sold"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat sold"></div>
+            <div class="seat sold"></div>
+            <div class="seat sold"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat sold"></div>
+        </div>
+    </div>
+
+    
+    <p class="text">
+        You have selected <span id="count">0</span> seat for a price of RS.<span id="total">0</span>
+    </p>
+    <button id="bookSeatButton">Book Seats</button>
+    <script src="script.js"></script>
+</body>
+<footer>
+    <p>Copyright &#169 INDRAKUMAR K 2024</p>
+</footer>
+</html>
